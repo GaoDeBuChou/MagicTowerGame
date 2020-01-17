@@ -382,7 +382,7 @@ while True:
         DISPLAYSURF.blit(book1,rect11)
 
         DISPLAYSURF.blit(mon1Img,(135,120))
-        book2=font2.render('生命：30 攻击：3 防御：0',True,BLACK,WHITE)
+        book2=font2.render('生命：15 攻击：3 防御：0',True,BLACK,WHITE)
         rect12=book2.get_rect()
         rect12.center=(330,130)
         DISPLAYSURF.blit(book2,rect12)
